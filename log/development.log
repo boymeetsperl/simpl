@@ -1,0 +1,112 @@
+[Sat Jul 19 15:08:09 2014] [info] Listening at "http://*:3000".
+[Sat Jul 19 15:08:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 19 15:08:19 2014] [debug] GET "/".
+[Sat Jul 19 15:08:19 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:08:19 2014] [debug] Rendering template "example/welcome.html.ep".
+[Sat Jul 19 15:08:19 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 19 15:08:19 2014] [debug] 200 OK (0.007841s, 127.535/s).
+[Sat Jul 19 15:08:22 2014] [debug] GET "/time".
+[Sat Jul 19 15:08:22 2014] [debug] Routing to controller "Simpl::Example" and action "time".
+[Sat Jul 19 15:08:22 2014] [error] Can't locate object method "Render" via package "Simpl::Example" at /Users/ianmcgaunn/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0/Mojolicious.pm line 125.
+
+[Sat Jul 19 15:08:22 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Jul 19 15:08:22 2014] [debug] Template "exception.html.ep" not found.
+[Sat Jul 19 15:08:22 2014] [debug] Rendering inline template "569839bd27413e47e26c8476bacb2540".
+[Sat Jul 19 15:08:22 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Jul 19 15:08:22 2014] [debug] 500 Internal Server Error (0.037585s, 26.606/s).
+[Sat Jul 19 15:09:01 2014] [info] Listening at "http://*:3000".
+[Sat Jul 19 15:09:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 19 15:09:06 2014] [debug] GET "/time".
+[Sat Jul 19 15:09:06 2014] [debug] Routing to controller "Simpl::Example" and action "time".
+[Sat Jul 19 15:09:06 2014] [debug] Template "example/time.html.ep" not found.
+[Sat Jul 19 15:09:06 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 19 15:09:06 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 19 15:09:06 2014] [debug] Rendering inline template "569839bd27413e47e26c8476bacb2540".
+[Sat Jul 19 15:09:06 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Jul 19 15:09:06 2014] [debug] 404 Not Found (0.035938s, 27.826/s).
+[Sat Jul 19 15:09:38 2014] [debug] GET "/time".
+[Sat Jul 19 15:09:38 2014] [debug] Routing to controller "Simpl::Example" and action "time".
+[Sat Jul 19 15:09:38 2014] [debug] Template "example/time.html.ep" not found.
+[Sat Jul 19 15:09:38 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 19 15:09:38 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 19 15:09:38 2014] [debug] Rendering cached inline template "569839bd27413e47e26c8476bacb2540".
+[Sat Jul 19 15:09:38 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Jul 19 15:09:38 2014] [debug] 404 Not Found (0.008876s, 112.663/s).
+[Sat Jul 19 15:15:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 19 15:15:10 2014] [debug] GET "/".
+[Sat Jul 19 15:15:10 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:15:10 2014] [debug] Rendering template "example/welcome.html.ep".
+[Sat Jul 19 15:15:10 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 19 15:15:10 2014] [debug] 200 OK (0.007373s, 135.630/s).
+[Sat Jul 19 15:15:11 2014] [debug] GET "/".
+[Sat Jul 19 15:15:11 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:15:11 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Sat Jul 19 15:15:11 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 19 15:15:11 2014] [debug] 200 OK (0.002122s, 471.254/s).
+[Sat Jul 19 15:15:12 2014] [debug] GET "/".
+[Sat Jul 19 15:15:12 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:15:12 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Sat Jul 19 15:15:12 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 19 15:15:12 2014] [debug] 200 OK (0.002503s, 399.521/s).
+[Sat Jul 19 15:15:12 2014] [debug] GET "/".
+[Sat Jul 19 15:15:12 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:15:12 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Sat Jul 19 15:15:12 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 19 15:15:12 2014] [debug] 200 OK (0.001775s, 563.380/s).
+[Sat Jul 19 15:15:13 2014] [debug] GET "/".
+[Sat Jul 19 15:15:13 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:15:13 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Sat Jul 19 15:15:13 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 19 15:15:13 2014] [debug] 200 OK (0.002219s, 450.653/s).
+[Sat Jul 19 15:15:13 2014] [debug] GET "/".
+[Sat Jul 19 15:15:13 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:15:13 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Sat Jul 19 15:15:13 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 19 15:15:13 2014] [debug] 200 OK (0.002366s, 422.654/s).
+[Sat Jul 19 15:16:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 19 15:16:29 2014] [debug] GET "/".
+[Sat Jul 19 15:16:29 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:16:29 2014] [debug] Rendering template "example/welcome.html.ep".
+[Sat Jul 19 15:16:29 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 19 15:16:29 2014] [debug] 200 OK (0.005511s, 181.455/s).
+[Sat Jul 19 15:17:26 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 19 15:17:26 2014] [debug] GET "/".
+[Sat Jul 19 15:17:26 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:17:26 2014] [debug] Rendering template "example/welcome.html.ep".
+[Sat Jul 19 15:17:26 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 19 15:17:26 2014] [debug] 200 OK (0.006357s, 157.307/s).
+[Sat Jul 19 15:17:32 2014] [debug] GET "/".
+[Sat Jul 19 15:17:32 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:17:32 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Sat Jul 19 15:17:32 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 19 15:17:32 2014] [debug] 200 OK (0.001285s, 778.210/s).
+[Sat Jul 19 15:17:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 19 15:17:58 2014] [debug] GET "/".
+[Sat Jul 19 15:17:58 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:17:58 2014] [debug] Rendering template "example/welcome.html.ep".
+[Sat Jul 19 15:17:58 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 19 15:17:58 2014] [debug] 200 OK (0.006611s, 151.263/s).
+[Sat Jul 19 15:18:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 19 15:18:19 2014] [debug] GET "/".
+[Sat Jul 19 15:18:19 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:18:19 2014] [debug] Rendering template "example/welcome.html.ep".
+[Sat Jul 19 15:18:19 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 19 15:18:19 2014] [debug] 200 OK (0.006064s, 164.908/s).
+[Sat Jul 19 15:18:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 19 15:18:22 2014] [debug] GET "/".
+[Sat Jul 19 15:18:22 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:18:22 2014] [debug] Rendering template "example/welcome.html.ep".
+[Sat Jul 19 15:18:22 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 19 15:18:22 2014] [debug] 200 OK (0.006123s, 163.319/s).
+[Sat Jul 19 15:20:41 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 19 15:20:41 2014] [debug] GET "/".
+[Sat Jul 19 15:20:41 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:20:41 2014] [debug] Rendering template "example/welcome.html.ep".
+[Sat Jul 19 15:20:41 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 19 15:20:41 2014] [debug] 200 OK (0.006205s, 161.160/s).
+[Sat Jul 19 15:21:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 19 15:21:04 2014] [debug] GET "/".
+[Sat Jul 19 15:21:04 2014] [debug] Routing to controller "Simpl::Example" and action "welcome".
+[Sat Jul 19 15:21:04 2014] [debug] Rendering template "example/welcome.html.ep".
+[Sat Jul 19 15:21:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 19 15:21:04 2014] [debug] 200 OK (0.008543s, 117.055/s).
