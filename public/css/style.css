@@ -3,18 +3,41 @@ body {
     font-family: "Ubuntu",Helvetica,sans-serif;
 }
 
+hr {
+    margin:20px 0;
+    padding:0;
+    border:0;
+    border-top:1px solid #333;
+    border-bottom:1px solid #000;
+    height:2px;
+    width:100%;
+    text-align:left;
+    display:block;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links span {
+    opacity: 0.75;
+    margin: 0px 5px;
+    padding: 0px;
+    font-size: 32px !important;
+    color: #FFF;
+}
+
+h2.genericon {
+    font-size: 32px;
+    color: #FFF;
+}
+
 header {
     padding: 10px;
 }
 
 article.post {
     color: #BBB;
-    background: #1c1c1c;
-    border: 1px solid #222;
-    border-radius: 4px;
-    box-shadow: 0 0 6px #000000;
-    padding: 30px 30px 15px;
-    margin-bottom: 20px;
 }
 
 article h1 {
@@ -30,3 +53,4 @@ footer .grid_12 {
     background: #111;
     padding: 10px;
 }
+
