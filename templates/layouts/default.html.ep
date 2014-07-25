@@ -1,20 +1,54 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title><%= title %></title>
+    <meta charset="utf-8" />
+    <title>Amazium example</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <script type="text/javascript">
+      /mobi/i.test(navigator.userAgent) && !location.hash && setTimeout(function () {
+      if (!pageYOffset) window.scrollTo(0, 1);
+      }, 1000);
+    </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" href="genericons.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/amazium.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
   </head>
   <body>
-    <div class="maincontainer">
+    <header>
+      <div class="row">
+        <nav class="grid_12">
+          <div class="social-links">
+            <a title="twitter" href="https://twitter.com/">
+              <span class="genericon genericon-twitter"></span>
+            </a>
+            <a title="github" href="https://github.com/">
+              <span class="genericon genericon-github"></span>
+            </a>
+        </nav> <!-- end of navbar -->
+    </header>
+
+    <section class="row">
+      <h1 style="text-align: center; color: #FFF"> Boy Meets Perl</h1>
       <%= content %>
+    </section>
 
-      <div class="subfooter">
-        <div class="colorone"></div>
-        <div class="colortwo"></div>
-        <div class="colorthree"></div>
-        <div class="colorfour"></div>
-      </div>
-
-    </div>
   </body>
 </html>
