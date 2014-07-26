@@ -46,7 +46,7 @@
     </header>
 
     <section class="row">
-      <h1 style="text-align: center; color: #FFF"> Boy Meets Perl</h1>
+      <h1 style="text-align: center; color: #FFF"> Test Site! </h1>
       <%= content %>
     </section>
 
