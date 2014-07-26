@@ -1,0 +1,9 @@
+% layout 'default';
+% title 'Welcome';
+
+% for my $post (@$posts) {
+<article class="grid_12 post">
+  <%== $post %>
+  <hr />
+</article>
+% }
